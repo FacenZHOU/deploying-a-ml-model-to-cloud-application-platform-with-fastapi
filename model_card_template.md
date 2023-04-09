@@ -16,6 +16,7 @@ After cleaning the data, also know as after EDA the shape of the data is (30162,
 
 ## Metrics
 The model was evaluated using precision, recall and f1 score.
+Our model has a precision of 0.74, recall of 0.65 and f1 score of 0.69.
 
 ## Ethical Considerations
 This dataset is not a reliable reflection of the distribution of salaries and should not be used to make assumptions about the salary levels of particular groups of people.
