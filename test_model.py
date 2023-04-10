@@ -24,14 +24,14 @@ def test_model_type():
     assert type(model1).__name__ == 'RandomForestClassifier'
 
 
-def test_model_shape():
+def test_load_data():
     """
-    Test the shape of the model.
+    Check the data received.
     """
-    X_train2 = np.random.rand(100, 10)
-    y_train2 = np.random.randint(0, 2, 100)
-    model2 = train_model(X_train2, y_train2)
-    assert model2.shape == (100, 10)
+    data = pd.read_csv("data/census_clean.csv")
+    assert isinstance(data, pd.DataFrame)
+    assert data.shape[0]>0
+    assert data.shape[1]>0
 
 
 def test_output_type():

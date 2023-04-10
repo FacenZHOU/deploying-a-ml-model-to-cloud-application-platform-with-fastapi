@@ -38,9 +38,9 @@ The project follows these steps:
 ## Model
 
 * To train the model run:
-   * `python src/train_model.py`
+```python src/train_model.py```
 * or run the entire ML pipeline which starts a local server where you can test the model
-   * `python main.py`
+```python main.py```
 
 
 ## API Creation
