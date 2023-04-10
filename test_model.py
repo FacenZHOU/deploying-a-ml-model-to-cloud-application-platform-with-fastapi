@@ -11,7 +11,7 @@ import pytest
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 import numpy as np
-from model import train_model, compute_model_metrics
+from ml.model import train_model, compute_model_metrics
 
 
 def test_model_type():
